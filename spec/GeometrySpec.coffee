@@ -20,3 +20,6 @@ describe 'asset master', ->
 			"bbox" : [124.0, 100.0, 14.0, -47.0]
 		}
 		testUtils.validate(json, geometrySchema, true)
+
+		#1. switch to one universal geometry object
+		#2. Add more tests to test invalid types, coordinates, bbox's
