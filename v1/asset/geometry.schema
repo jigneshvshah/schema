@@ -1,0 +1,5 @@
+{
+	"id" : "geometry",
+	"type" : ["Point", "MultiPoint", "LineString", "MultiLineString", "Polygon", "MultiPolygon", "Geometry"],
+	"coordinates" : {"type" : "array", "required" : false, "items" : { "type" : "array", "description" : "position" }}
+}

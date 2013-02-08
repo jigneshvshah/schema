@@ -1,0 +1,7 @@
+{
+	"id" : "geometry_collection",
+	"type": "String",
+	"geometries" : { "type" : "array", "items" : { "geometry": {"$ref" : "geometry"}}}
+		
+}
+	

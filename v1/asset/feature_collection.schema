@@ -1,0 +1,11 @@
+{
+	"id" : "feature_collection",
+	"type" : "String",
+	"bbox" : {"id" : "bbox", "type" : "array"},
+	"crs" : {
+		"type": "String",
+		"properties" : {
+			"name": "String"
+		},
+	"features": { "type" : "array", "items" : { "feature" : { "$ref" : "feature"}}}
+}

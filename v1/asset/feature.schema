@@ -1,0 +1,16 @@
+{
+	"id" : "feature",
+	"type" : "String",
+	"bbox" : {"type" : "array", "maxItems" : 4,  "optional" : true},
+	"crs" : {
+		"type": "String",
+		"properties" : {
+			"name": "String"
+		},
+	"geometry" : {
+		"$ref" : "geometry"
+	},
+
+		"optional": false
+	}
+}
